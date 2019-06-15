@@ -1,48 +1,59 @@
-.main-container {
-    margin: 0 auto;
-    width: 70% !important;
-    height: 100%;
-}
+    .main-container {
+        margin: 0 auto;
+        width: 70% !important;
+        height: 100%;
+    }
 
-.nav-bar {
-    margin: 0 auto;
-    width: 70% !important;
-    padding: 2%;
-    text-align: center;
-}
+    .nav-bar {
+        margin: 0 auto;
+        width: 70% !important;
+        padding: 2%;
+        text-align: center;
+    }
 
-.title-container {
-    margin: 0 auto;
-    padding: 2%;
-    text-align: center;
-    font-size: 24px;
-}
+    .title-container {
+        margin: 0 auto;
+        padding: 2%;
+        text-align: center;
+        font-size: 24px;
+    }
 
-.about-me-body {
-    display: table;
-    clear: both;
-}
+    .about-me-body {
+        display: table;
+        clear: both;
+    }
 
-.about-column {
-    float: left;
-    width: 50%;
-}
+    .about-column {
+        float: left;
+        width: 50%;
+    }
 
-.about-me-text {
-    font-size: 1.1vw;
-}
+    .about-me-text {
+        font-size: 1.1vw;
+    }
 
-.about-me-img {
-    height: 50%;
-    width: 50%;
-    display: block;
-    margin: 0 auto;
-}
+    .about-me-img {
+        height: 50%;
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
 
-.scroll-box {
-    height: 100%;
-    width: 100%;
-    border: 1px solid #ccc;
-    font: 16px/26px Georgia, Garamond, Serif;
-    overflow: auto;
-}
+    .scroll-box {
+        height: 100%;
+        width: 100%;
+        border: 1px solid #ccc;
+        font: 16px/26px Georgia, Garamond, Serif;
+        overflow: auto;
+    }
+
+    .contact-form {
+        width: 100%;
+        display: table;
+        clear: both;
+    }
+
+    .contact-form-col {
+        float: left;
+        width: 50%;
+    }

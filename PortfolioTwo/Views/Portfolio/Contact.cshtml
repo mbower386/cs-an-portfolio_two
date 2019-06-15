@@ -22,15 +22,22 @@
             Contact
         </div>
         <div class="contact-form">
-            <form action='/post_wish' method='POST'>
-                <div class="contact-form-left">
-                    <p><input type='text' class="form-control" name='title' placeholder="Name"></p>
-                    <p><input type='text' class="form-control" name='description' placeholder="Email"></p>
+            <form action='/' method='POST'>
+                <div class="form-row">
+                    <div class="col name-box">
+                        <p><label for="name-box">Name</label>
+                        <input type="text" class="form-control" placeholder="Name"></p>
+                    
+                        <p><label for="email-box">Email</label>
+                        <input type="text" class="form-control" placeholder="Email"></p>
+                    </div>
+                    <div class="col">
+                        <label for="message-box">Message</label>
+                        <textarea class="form-control message-box" placeholder="Write message here" id="message" rows="3"></textarea>
+                        <p><button type="submit" class="btn btn-primary button-right">Submit</button><a href='/'
+                        class="btn btn-primary button-right">Cancel</a></p>
+                    </div>
                 </div>
-
-                <p><input type='text' class="form-control" name='description' placeholder="Email"></p>
-                <p><button type="submit" class="btn btn-primary button-right">Send</button><a href='/'
-                    class="btn btn-primary button-right">Cancel</a></p>
             </form>
         </div>
     </div>
