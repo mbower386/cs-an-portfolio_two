@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="~/css/style.css"/>
+    <title>Contact</title>
+</head>
+
+<body>
+<div class="nav-bar">
+        <a href="/">Home</a> |
+        <a href="/projects">Projects</a> |
+        <a href="/contact">Contact</a>
+    </div>
+    <div class="contact main-container">
+        <div class="contact-title title-container">
+            Contact
+        </div>
+        <div class="contact-form">
+            <form action='/post_wish' method='POST'>
+                <div class="contact-form-left">
+                    <p><input type='text' class="form-control" name='title' placeholder="Name"></p>
+                    <p><input type='text' class="form-control" name='description' placeholder="Email"></p>
+                </div>
+
+                <p><input type='text' class="form-control" name='description' placeholder="Email"></p>
+                <p><button type="submit" class="btn btn-primary button-right">Send</button><a href='/'
+                    class="btn btn-primary button-right">Cancel</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
